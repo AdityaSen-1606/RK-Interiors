@@ -10,7 +10,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import BlogCardWithImage from "@/components/blog-card-with-image";
-import SimpleBlogCard from  "@/components/simple-blog-card";
+import SimpleBlogCard from "@/components/simple-blog-card";
 
 const SIMPLE_CONTENT = [
   {
@@ -36,7 +36,14 @@ const SIMPLE_CONTENT = [
 export function BlogPost() {
   return (
     <section className="w-full max-w-6xl mx-auto flex flex-col items-center px-4 py-20">
-      <Button color="gray" className="mb-3" size="sm">
+      <Button
+        color="gray"
+        className="mb-3"
+        size="sm"
+        onPointerEnterCapture={() => {}}
+        onPointerLeaveCapture={() => {}}
+        onClick={() => console.log("Clicked")} // Ensure to include all required interactive props
+      >
         BLOG
       </Button>
       <Typography variant="h3" className="text-center" color="blue-gray">
