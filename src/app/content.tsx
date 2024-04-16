@@ -8,10 +8,21 @@ export function Content() {
   return (
     <section className="py-12 px-8">
       <div className="mx-auto max-w-screen-md">
-        <Typography color="blue" variant="h6">
+        <Typography
+          color="blue"
+          variant="h6"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           #science #biology #ecology
         </Typography>
-        <Typography className="my-12 font-normal !text-gray-500">
+        <Typography
+          className="my-12 font-normal !text-gray-500"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           Biology, often referred to as the &quot;science of life,&quot; is a
           captivating and multifaceted field that delves into the intricate web
           of living organisms and the systems that sustain them. From the
@@ -20,11 +31,23 @@ export function Content() {
           evolution, and interconnectedness.
         </Typography>
 
-        <Typography variant="h2" color="blue-gray" className="mt-8 mb-6">
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          className="mt-8 mb-6"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           Exploring the Wonders of Biology
         </Typography>
 
-        <Typography className="my-10 font-normal !text-gray-500">
+        <Typography
+          className="my-10 font-normal !text-gray-500"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           The Branches of Biology Biology encompasses a diverse array of
           branches, each focusing on specific aspects of living organisms. Here
           are a few key ones: a. Genetics: Genetics unravels the secrets of
@@ -43,7 +66,13 @@ export function Content() {
           alt="post"
           className="mb-4 h-[28rem] w-full rounded-xl object-cover"
         />
-        <Typography variant="small" className="font-normal !text-gray-500">
+        <Typography
+          variant="small"
+          className="font-normal !text-gray-500"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           Photo by Jackson Sophat on{" "}
           <a
             href="#"
@@ -55,7 +84,12 @@ export function Content() {
           </a>
         </Typography>
 
-        <Typography className="my-12 font-normal !text-gray-500">
+        <Typography
+          className="my-12 font-normal !text-gray-500"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           Thank you Anna for the invite thank you to the whole Vogue team And I
           love you like Kanye loves Kanye.
           <br />
@@ -68,12 +102,24 @@ export function Content() {
           of natural reasons, there&apos;s huge variety of the state of the ice.
         </Typography>
 
-        <Typography variant="h2" color="blue-gray" className="mt-8 mb-6">
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          className="mt-8 mb-6"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           So what does the new record for the lowest level of winter ice
           actually mean
         </Typography>
 
-        <Typography className="my-10 font-normal !text-gray-500">
+        <Typography
+          className="my-10 font-normal !text-gray-500"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           For a start, it does not automatically follow that a record amount of
           ice will melt this summer. More important for determining the size of
           the annual thaw is the state of the weather as the midnight sun
@@ -97,13 +143,34 @@ export function Content() {
         <div className="container mx-auto px-4 py-20">
           <div className="w-full mb-10 md:flex items-center justify-between">
             <div className="flex mb-5 md:mb-0 items-center gap-3">
-              <Button size="sm" color="gray" variant="outlined">
+              <Button
+                size="sm"
+                color="gray"
+                variant="outlined"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 stories
               </Button>
-              <Button size="sm" color="gray" variant="outlined">
+              <Button
+                size="sm"
+                color="gray"
+                variant="outlined"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 design
               </Button>
-              <Button size="sm" color="gray" variant="outlined">
+              <Button
+                size="sm"
+                color="gray"
+                variant="outlined"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 catle
               </Button>
             </div>
@@ -135,10 +202,18 @@ export function Content() {
                   variant="h5"
                   className="mb-4 md:mb-0"
                   color="blue-gray"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Emma Roberts
                 </Typography>
-                <Typography className="w-full md:w-10/12 font-normal !text-gray-500">
+                <Typography
+                  className="w-full md:w-10/12 font-normal !text-gray-500"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   Dr. Sarah Mitchell is a passionate and accomplished biologist
                   with a deep-rooted fascination for the intricate workings of
                   the natural world.
@@ -149,6 +224,9 @@ export function Content() {
               color="gray"
               className="w-1/2 md:w-fit flex-shrink-0"
               size="md"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               follow
             </Button>
