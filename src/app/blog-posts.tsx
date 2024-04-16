@@ -40,12 +40,15 @@ export function BlogPost() {
         color="gray"
         className="mb-3"
         size="sm"
-        onPointerEnterCapture={() => {}}
-        onPointerLeaveCapture={() => {}}
-        onClick={() => console.log("Clicked")} // Ensure to include all required interactive props
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+        // Add other missing props similarly if necessary
+        onClick={() => console.log("Clicked")}
       >
         BLOG
       </Button>
+
       <Typography variant="h3" className="text-center" color="blue-gray">
         Check out the latest articles
       </Typography>
