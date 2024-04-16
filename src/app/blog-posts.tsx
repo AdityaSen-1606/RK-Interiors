@@ -43,18 +43,28 @@ export function BlogPost() {
         placeholder={undefined}
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
-        // Add other missing props similarly if necessary
         onClick={() => console.log("Clicked")}
       >
         BLOG
       </Button>
 
-      <Typography variant="h3" className="text-center" color="blue-gray">
+      <Typography
+        variant="h3"
+        className="text-center"
+        color="blue-gray"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      >
         Check out the latest articles
       </Typography>
+
       <Typography
         variant="lead"
         className="mt-2 mb-8 w-full text-center font-normal !text-gray-500 max-w-4xl"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         Stay at the forefront of the latest developments in the world of
         biology, as our team of expert writers and researchers bring you fresh
@@ -64,15 +74,34 @@ export function BlogPost() {
       <div className="mt-10 gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <div className=" md:border-r px-3 border-blue-gray-100">
           <div className="!border-b  border-blue-gray-100 mb-5">
-            <Card shadow={false} className="p-0">
-              <CardBody className="p-0 pb-5">
+            <Card
+              shadow={false}
+              className="p-0"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
+              <CardBody
+                className="p-0 pb-5"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <Typography
                   variant="h3"
                   className="leading-[45px] mb-4 !text-gray-900 "
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Exploring the Role of Epigenetics in Inherited Traits
                 </Typography>
-                <Typography className="text-normal mb-4 !text-base text-blue-gray-500 ">
+                <Typography
+                  className="text-normal mb-4 !text-base text-blue-gray-500 "
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   Investigate the emerging field of epigenetics and its impact
                   on understanding how environmental factors can influence gene
                   expression and inheritance.
@@ -88,10 +117,20 @@ export function BlogPost() {
                     />
                   </div>
                   <div>
-                    <Typography className="!font-bold !text-sm text-gray-900">
+                    <Typography
+                      className="!font-bold !text-sm text-gray-900"
+                      placeholder={undefined}
+                      onPointerEnterCapture={undefined}
+                      onPointerLeaveCapture={undefined}
+                    >
                       Mathew Glock
                     </Typography>
-                    <Typography className="!font-normal !text-xs text-gray-500">
+                    <Typography
+                      className="!font-normal !text-xs text-gray-500"
+                      placeholder={undefined}
+                      onPointerEnterCapture={undefined}
+                      onPointerLeaveCapture={undefined}
+                    >
                       Author
                     </Typography>
                   </div>
@@ -100,15 +139,34 @@ export function BlogPost() {
             </Card>
           </div>
           <div className="!border-b md:border-none border-blue-gray-100 mb-5">
-            <Card shadow={false} className="p-0">
-              <CardBody className="p-0 pb-5">
+            <Card
+              shadow={false}
+              className="p-0"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
+              <CardBody
+                className="p-0 pb-5"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <Typography
                   variant="h3"
                   className="leading-[45px] mb-4 !text-gray-900 "
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   How Gut Bacteria Affect Our Health and Well-being
                 </Typography>
-                <Typography className="text-normal mb-4 !text-base text-blue-gray-500 ">
+                <Typography
+                  className="text-normal mb-4 !text-base text-blue-gray-500 "
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   Dive into the latest research on the human microbiome.
                 </Typography>
                 <div className="flex items-center gap-3">
@@ -122,10 +180,20 @@ export function BlogPost() {
                     />
                   </div>
                   <div>
-                    <Typography className="!font-bold !text-sm text-gray-900">
+                    <Typography
+                      className="!font-bold !text-sm text-gray-900"
+                      placeholder={undefined}
+                      onPointerEnterCapture={undefined}
+                      onPointerLeaveCapture={undefined}
+                    >
                       Mathew Glock
                     </Typography>
-                    <Typography className="!font-normal !text-xs text-gray-500">
+                    <Typography
+                      className="!font-normal !text-xs text-gray-500"
+                      placeholder={undefined}
+                      onPointerEnterCapture={undefined}
+                      onPointerLeaveCapture={undefined}
+                    >
                       Author
                     </Typography>
                   </div>
@@ -139,8 +207,19 @@ export function BlogPost() {
         </div>
         <div className="md:border-l px-3 border-blue-gray-100">
           <div className="!border-b  border-blue-gray-100 mb-6">
-            <Card shadow={false} className="p-0">
-              <CardBody className="p-0 pb-5">
+            <Card
+              shadow={false}
+              className="p-0"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
+              <CardBody
+                className="p-0 pb-5"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <div className="w-full mb-4 h-[149px] ">
                   <Image
                     width={768}
@@ -153,18 +232,37 @@ export function BlogPost() {
                 <Typography
                   variant="h3"
                   className="leading-[45px] mb-6 !text-gray-900"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Biomimicry: Nature-Inspired Innovations
                 </Typography>
-                <Typography className="!font-bold !text-sm text-gray-700">
+                <Typography
+                  className="!font-bold !text-sm text-gray-700"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   by Mathew Glock
                 </Typography>
               </CardBody>
             </Card>
           </div>
           <div className="!border-b md:border-none border-blue-gray-100 mb-6">
-            <Card shadow={false} className="p-0">
-              <CardBody className="p-0 pb-5">
+            <Card
+              shadow={false}
+              className="p-0"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
+              <CardBody
+                className="p-0 pb-5"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <div className="w-full mb-4 h-[149px]">
                   <Image
                     width={768}
@@ -177,10 +275,18 @@ export function BlogPost() {
                 <Typography
                   variant="h3"
                   className="leading-[45px] mb-6 !text-gray-900"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Bringing Back Extinct Species
                 </Typography>
-                <Typography className="!font-bold !text-sm text-gray-700">
+                <Typography
+                  className="!font-bold !text-sm text-gray-700"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   by Emma Roberts
                 </Typography>
               </CardBody>
